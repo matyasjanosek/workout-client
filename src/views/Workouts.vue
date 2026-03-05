@@ -22,7 +22,7 @@
                 <button @click="addWorkout" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg font-medium">Add Workout</button>
             </div>
 
-            <div v-if="store.workouts.length === 0" class="text-gray-500 text-center py-12">No workouts yet. Add one above!</div>
+            <div v-if="store.workouts.length === 0" class="text-gray-500 text-center py-12">No workouts yet.</div>
 
             <div v-for="workout in store.workouts" :key="workout._id" class="bg-gray-900 rounded-2xl p-5 mb-3 flex justify-between items-center">
                 <div>
