@@ -5,7 +5,7 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "strict": false,
-    "esModuleInterop": true,
-    "exclude": ["node_modules", "tests"]
-  }
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules", "tests", "**/*.test.ts"]
 }
