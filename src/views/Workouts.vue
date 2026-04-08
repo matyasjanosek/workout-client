@@ -4,7 +4,10 @@
 
             <div class="flex justify-between items-center mb-8">
                 <h1 class="text-white text-3xl font-bold">My Workouts</h1>
-                <button @click="logout" class="text-gray-400 hover:text-white text-sm border border-gray-700 px-4 py-2 rounded-lg">Logout</button>
+                <div class="flex gap-2">
+                    <router-link to="/exercises" class="text-gray-400 hover:text-white text-sm border border-gray-700 px-4 py-2 rounded-lg">Exercise Tracker</router-link>
+                    <button @click="logout" class="text-gray-400 hover:text-white text-sm border border-gray-700 px-4 py-2 rounded-lg">Logout</button>
+                </div>
             </div>
 
             <div class="bg-gray-900 rounded-2xl p-6 mb-6">
